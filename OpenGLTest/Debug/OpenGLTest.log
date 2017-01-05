@@ -1,0 +1,24 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (OpenGLTest.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  main.cpp
+c:\users\ivan\desktop\opengltest\opengltest\objectcomponent.h(4): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+c:\users\ivan\desktop\opengltest\opengltest\scenecomponent.h(4): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+c:\users\ivan\desktop\opengltest\opengltest\main.cpp(50): warning C4305: аргумент: усечение из "double" к "btScalar"
+c:\users\ivan\desktop\opengltest\opengltest\main.cpp(51): warning C4305: аргумент: усечение из "double" к "btScalar"
+c:\users\ivan\desktop\opengltest\opengltest\main.cpp(78): warning C4305: аргумент: усечение из "double" к "float"
+c:\users\ivan\desktop\opengltest\opengltest\main.cpp(82): warning C4305: аргумент: усечение из "double" к "float"
+c:\users\ivan\desktop\opengltest\opengltest\main.cpp(86): warning C4305: аргумент: усечение из "double" к "float"
+c:\users\ivan\desktop\opengltest\opengltest\main.cpp(105): warning C4305: инициализация: усечение из "double" к "float"
+c:\users\ivan\desktop\opengltest\opengltest\main.cpp(147): warning C4244: =: преобразование "Sint32" в "float", возможна потеря данных
+c:\users\ivan\desktop\opengltest\opengltest\main.cpp(148): warning C4244: =: преобразование "Sint32" в "float", возможна потеря данных
+c:\users\ivan\desktop\opengltest\opengltest\main.cpp(188): warning C4305: +=: усечение из "double" к "float"
+c:\users\ivan\desktop\opengltest\opengltest\main.cpp(190): warning C4305: -=: усечение из "double" к "float"
+c:\users\ivan\desktop\opengltest\opengltest\main.cpp(194): warning C4305: -=: усечение из "double" к "float"
+c:\users\ivan\desktop\opengltest\opengltest\main.cpp(196): warning C4305: +=: усечение из "double" к "float"
+c:\users\ivan\desktop\opengltest\opengltest\main.cpp(198): warning C4305: -=: усечение из "double" к "float"
+c:\users\ivan\desktop\opengltest\opengltest\main.cpp(200): warning C4305: +=: усечение из "double" к "float"
+c:\users\ivan\desktop\opengltest\opengltest\main.cpp(216): warning C4305: аргумент: усечение из "double" к "btScalar"
+c:\users\ivan\desktop\opengltest\opengltest\main.cpp(217): warning C4305: аргумент: усечение из "double" к "btScalar"
+c:\users\ivan\desktop\opengltest\opengltest\main.cpp(229): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+c:\users\ivan\desktop\opengltest\opengltest\main.cpp(230): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+c:\users\ivan\desktop\opengltest\opengltest\main.cpp(231): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  OpenGLTest.vcxproj -> C:\Users\Ivan\Desktop\OpenGLTest\Debug\GDGE.exe

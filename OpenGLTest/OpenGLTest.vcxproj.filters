@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы исходного кода\engine">
+      <UniqueIdentifier>{5a227e92-bb4f-40d0-996d-9788dc7d3fa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\engine\graphics">
+      <UniqueIdentifier>{c88b892a-0809-4e35-a549-179327cb501c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\engine\util">
+      <UniqueIdentifier>{934ecec9-8530-4823-b4a7-481dea3f8798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\engine\app">
+      <UniqueIdentifier>{f7409445-ebc5-475d-adc2-d6972ebdbd56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\engine\graphics\scene">
+      <UniqueIdentifier>{f0ade539-5bea-47d8-896a-afc3e956565b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\engine\object">
+      <UniqueIdentifier>{596cf637-f197-4b5b-9bac-683e119ef4b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\engine\object\components">
+      <UniqueIdentifier>{1bc06234-436d-471d-813a-55d7c0d27daf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\engine\graphics\scene\components">
+      <UniqueIdentifier>{23c5032b-6378-43e1-aba2-d08e324c5d66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\engine\resources">
+      <UniqueIdentifier>{6c634607-ab87-4dfb-8607-38f7e80502b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\engine\graphics\UI">
+      <UniqueIdentifier>{96fa332a-2ae3-4da8-a4d2-b0a74c614c72}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="display.h">
+      <Filter>Файлы исходного кода\engine\app</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>Файлы исходного кода\engine\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>Файлы исходного кода\engine\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="shadow.h">
+      <Filter>Файлы исходного кода\engine\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>Файлы исходного кода\engine\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.h">
+      <Filter>Файлы исходного кода\engine\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>Файлы исходного кода\engine\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>Файлы исходного кода\engine\object</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Файлы исходного кода\engine\util</Filter>
+    </ClInclude>
+    <ClInclude Include="frustum.h">
+      <Filter>Файлы исходного кода\engine\util</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_loader.h">
+      <Filter>Файлы исходного кода\engine\util</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Файлы исходного кода\engine\util</Filter>
+    </ClInclude>
+    <ClInclude Include="transform.h">
+      <Filter>Файлы исходного кода\engine\util</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Файлы исходного кода\engine\util</Filter>
+    </ClInclude>
+    <ClInclude Include="gdge.h">
+      <Filter>Файлы исходного кода\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="objectComponent.h">
+      <Filter>Файлы исходного кода\engine\object\components</Filter>
+    </ClInclude>
+    <ClInclude Include="transformComponent.h">
+      <Filter>Файлы исходного кода\engine\object\components</Filter>
+    </ClInclude>
+    <ClInclude Include="meshComponent.h">
+      <Filter>Файлы исходного кода\engine\object\components</Filter>
+    </ClInclude>
+    <ClInclude Include="AABB.h">
+      <Filter>Файлы исходного кода\engine\util</Filter>
+    </ClInclude>
+    <ClInclude Include="meshCreator.h">
+      <Filter>Файлы исходного кода\engine\util</Filter>
+    </ClInclude>
+    <ClInclude Include="rigidBodyComponent.h">
+      <Filter>Файлы исходного кода\engine\object\components</Filter>
+    </ClInclude>
+    <ClInclude Include="lightComponent.h">
+      <Filter>Файлы исходного кода\engine\object\components</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>Файлы исходного кода\engine\graphics\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneComponent.h">
+      <Filter>Файлы исходного кода\engine\graphics\scene\components</Filter>
+    </ClInclude>
+    <ClInclude Include="physicsWorldComponent.h">
+      <Filter>Файлы исходного кода\engine\graphics\scene\components</Filter>
+    </ClInclude>
+    <ClInclude Include="resourceManager.h">
+      <Filter>Файлы исходного кода\engine\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="font.h">
+      <Filter>Файлы исходного кода\engine\graphics\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="label.h">
+      <Filter>Файлы исходного кода\engine\graphics\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="material.h">
+      <Filter>Файлы исходного кода\engine\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="materialComponent.h">
+      <Filter>Файлы исходного кода\engine\object\components</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="display.cpp">
+      <Filter>Файлы исходного кода\engine\app</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>Файлы исходного кода\engine\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>Файлы исходного кода\engine\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="shadow.cpp">
+      <Filter>Файлы исходного кода\engine\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh.cpp">
+      <Filter>Файлы исходного кода\engine\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="shader.cpp">
+      <Filter>Файлы исходного кода\engine\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>Файлы исходного кода\engine\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="frustum.cpp">
+      <Filter>Файлы исходного кода\engine\util</Filter>
+    </ClCompile>
+    <ClCompile Include="obj_loader.cpp">
+      <Filter>Файлы исходного кода\engine\util</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.c">
+      <Filter>Файлы исходного кода\engine\util</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>Файлы исходного кода\engine\graphics\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="font.cpp">
+      <Filter>Файлы исходного кода\engine\graphics\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="label.cpp">
+      <Filter>Файлы исходного кода\engine\graphics\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,12 @@
+﻿  Building Custom Rule C:/Users/Ivan/Desktop/bullet3-2.83.7/src/LinearMath/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\Ivan\Desktop\BulletBuild\src\LinearMath\CMakeFiles\generate.stamp is up-to-date.
+  btAlignedAllocator.cpp
+  btConvexHull.cpp
+  btConvexHullComputer.cpp
+  btGeometryUtil.cpp
+  btPolarDecomposition.cpp
+  btQuickprof.cpp
+  btSerializer.cpp
+  btVector3.cpp
+  Создание кода...
+  LinearMath.vcxproj -> C:\Users\Ivan\Desktop\BulletBuild\lib\Debug\LinearMath_Debug.lib

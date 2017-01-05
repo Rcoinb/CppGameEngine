@@ -1,0 +1,15 @@
+﻿  Building Custom Rule C:/Users/Ivan/Desktop/bullet3-2.83.7/src/Bullet3Collision/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\Ivan\Desktop\BulletBuild\src\Bullet3Collision\CMakeFiles\generate.stamp is up-to-date.
+  b3DynamicBvh.cpp
+  b3DynamicBvhBroadphase.cpp
+C:\Users\Ivan\Desktop\bullet3-2.83.7\src\Bullet3Collision/BroadPhaseCollision/b3DynamicBvh.h(968): warning C4101: resultNormal: неиспользованная локальная переменная
+  C:\Users\Ivan\Desktop\bullet3-2.83.7\src\Bullet3Collision\BroadPhaseCollision\b3DynamicBvhBroadphase.cpp(249): note: см. ссылку на создание экземпляров функции шаблон при компиляции "void b3DynamicBvh::rayTestInternal<BroadphaseRayTester>(const b3DbvtNode *,const b3Vector3 &,const b3Vector3 &,const b3Vector3 &,unsigned int [],b3Scalar,const b3Vector3 &,const b3Vector3 &,T &) const"
+          with
+          [
+              T=BroadphaseRayTester
+          ]
+  b3OverlappingPairCache.cpp
+  b3ConvexUtility.cpp
+  b3CpuNarrowPhase.cpp
+  Создание кода...
+  Bullet3Collision.vcxproj -> C:\Users\Ivan\Desktop\BulletBuild\lib\Debug\Bullet3Collision_Debug.lib
